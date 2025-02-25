@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HOME PAGE</title>
+    <style>
+        .nav_bar {
+            background-color: #475569;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            border-radius:5px;
+        }
+        .logo {
+            font-size: 25px;
+            font-weight: bold;
+            color: white;
+        }
+        .items {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+        }
+        .items li {
+            display: inline-block;
+            margin-right: 15px;
+        }
+        .items a {
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 15px;
+            color: #FFF1F2;
+        }
+        button {
+            background-color: black;
+            border-radius: 10px;
+            width: 90px;
+            padding: 5px;
+            border: none;
+        }
+        button a {
+            color: white;
+            text-decoration: none;
+            display: block;
+            text-align: center;
+            padding: 5px;
+        }
+#food {
+  display: flex;
+  margin: 20px auto;    
+  width: 80%;  
+  background-color: #F8F8FF;
+       
+}
+.type {
+  margin: 0px 10PX;
+  width: 33%;          
+  text-align: center;
+  border:1px solid black;
+}
+.hotel {
+  margin-top: 10px;  
+  text-align:left;
+  padding-left:25px;
+}
+
+li {
+  margin-bottom: 10px;  /* Adjust the space between list items */
+}
+.btn{
+background-color:black;
+color:ghostwhite;
+border-radius:0;
+margin:10px;
+padding:8px;
+font-family:roboto;
+}
+.btn:hover{
+background-color:#FFE4E6;
+color:#020617;
+cursor:pointer;
+}
+.footer {
+    background-color:#475569;
+    margin: 0 auto;
+    width: 100%; /* Ensures it takes only the required space */
+    
+}
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="nav_bar">
+            <div class="logo">DELICIOUS!..</div>
+            <nav>
+                <ul class="items">
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">SERVICES</a></li>
+                    <li><button><a href="#">SIGN IN</a></button></li>
+                    <li><button><a href="#">SIGN UP</a></button></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+<div id="food">
+  <div class="type">
+    <h3>VEG</h3>
+    <p style="padding:10px;">Vegetarian food is plant-based and free from meat or animal products. It includes fruits, vegetables, grains, legumes, nuts, and seeds. Rich in vitamins, minerals, and fiber, vegetarian diets can help reduce the risk of chronic diseases like heart disease and diabetes while promoting overall health and well-being.</p>
+    <ul class="hotel">
+   <li>Vegetable Biryani </li>
+   <li>Caprese Salad </li>
+   <li>Aloo Gobi </li>
+   <li>Quinoa Salad  </li>
+   </ul>
+    <button class="btn"> click here</button>
+   </div>
+  <div class="type" style="background-color:#FEF08A; ">
+    <h3>NON-VEG</h3>
+    <p style="margin:0 15px 16px">Non-vegetarian food includes meat, poultry, fish, and other animal products. It is a rich source of protein, iron, and essential vitamins like B12. While it provides numerous nutrients, a balanced consumption of non-veg foods is important for maintaining good health and preventing health issues like cholesterol and heart disease.</p>
+   <ul class="hotel">
+   <li>Chicken Biryani </li>
+   <li>Chilly chicken </li>
+   <li>Mutton curry </li>
+   <li>Fish fry  </li>
+   </ul>
+    <button class="btn"> click here</button>
+</div>
+  <div class="type">
+    <h3>JUCIES</h3>
+    <p style="padding:8px;">Juices are liquid extracts from fruits, vegetables, or herbs, often consumed for hydration and nutrition. Rich in vitamins, minerals, and antioxidants, they support immune health, improve digestion, and provide energy. Freshly squeezed juices are considered more nutritious than processed ones.</p>
+ <ul class="hotel" >
+   <li>Watermelon </li>
+   <li>Papaya</li>
+   <li>Grapes </li>
+  <li>Guava  </li>
+   </ul>  
+  <button class="btn"> click here</button>
+</div>
+</div>
+<div class="footer">
+<div class="footer-content">
+<h4>ABOUT</h4>
+</div>
+</div>
+</body>
+</html>
